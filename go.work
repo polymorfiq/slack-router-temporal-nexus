@@ -1,0 +1,9 @@
+go 1.26.7
+
+use ./nexus_service
+
+use (
+	./example_bot
+	./slack_http_receiver
+	./worker
+)
